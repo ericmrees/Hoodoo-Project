@@ -1,0 +1,109 @@
+html {
+  font-size: 62.5%;
+  width: 100%;
+  white-space: nowrap;
+}
+
+body {
+  color: #4d4f53;
+  font-family: SourceSansPro-Regular;
+  background-color: white;
+  margin: auto;
+}
+
+p {
+  color: #4d4f53;
+  font-family: SourceSansPro-Regular;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+h1 {
+  font-family: SourceSansPro-Regular;
+  color: solid #4d4f53;
+  font-size: 2.4rem;
+  line-break: 25px (1);
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+}
+
+h1::after {
+  display: inline-block;
+  content: "";
+  border-top: 0.1rem solid #c7c4c4;
+  width: 80%;
+  margin: 0 1.2rem;
+  transform: translateY(-0.7rem);
+}
+
+h2 {
+  font-family: SourceSansPro-Semibold;
+  color: #4d4f53;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0rem;
+}
+
+h3 {
+  font-family: SourceSansPro-Regular;
+  color: #027c92;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0rem;
+}
+
+.map1 {
+  height: 13.5rem;
+  width: 17.5rem;
+  margin-bottom: 5.2rem;
+  margin-right: 2rem;
+  float: left;
+}
+
+.map2 {
+  height: 13.5rem;
+  width: 17.5rem;
+  margin-bottom: 5.2rem;
+  margin-right: 2rem;
+  float: left;
+}
+
+.spacing1 {
+  margin-bottom: 0.5rem;
+  margin-top: 0rem;
+}
+
+.spacing2 {
+  margin-bottom: 0.8rem;
+  margin-top: 0rem;
+}
+
+.spacing3 {
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+}
+
+.flex-container1 {
+  display: flex;
+}
+
+.flex1c {
+  margin-left: 3.5rem;
+}
+
+.flex-container2 {
+  display: flex;
+}
+
+.flex2c {
+  margin-left: 3.5rem;
+}
+
+/*
+//couldn't get "span" to work with phone number, so used "b" instead
+.bold {
+  font-family: SourceSansPro-Semibold;
+  color: #4d4f53;
+  font-size: 1.5rem;
+}
+*/
